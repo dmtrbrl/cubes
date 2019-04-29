@@ -1,11 +1,11 @@
 {
-  "name": "three.js-experiments",
+  "name": "three.js-posters",
   "version": "1.0.0",
   "description": "",
-  "main": "index.pug",
+  "main": "index.html",
   "scripts": {
-    "dev": "parcel src/index.pug",
-    "build": "parcel build src/index.pug"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [
     "three.js"
@@ -14,7 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
-    "pug": "^2.0.3",
     "sass": "^1.19.0"
+  },
+  "dependencies": {
+    "three": "^0.104.0"
   }
 }
