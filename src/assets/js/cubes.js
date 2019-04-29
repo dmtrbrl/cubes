@@ -1,12 +1,10 @@
-import * as THREE from "three";
-
 const CUBE_SPACE_SIZE = 70;
 const CUBE_SIZE = 20;
-const ROWS = 6;
+const ROWS = 5;
 const COLS = 5;
 
-const CANVAS_BACKGROUND = 0x3b3a3b;
-const CUBE_BORDER_COLOR = 0xffffff;
+const CANVAS_BACKGROUND = 0x3f72af;
+const CUBE_BORDER_COLOR = 0xf9f7f7;
 
 const cubes = [];
 const animations = [];
