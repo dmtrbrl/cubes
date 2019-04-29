@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "rimraf dist && parcel build --public-url '.' src/index.html",
+    "deploy": "yarn run build && gh-pages -d dist"
   },
   "keywords": [
     "three.js"
@@ -13,6 +14,7 @@
   "author": "dmtrbrl <dmytro.barylo@gmail.com> (https://github.com/dmtrbrl)",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.19.0"
   },
